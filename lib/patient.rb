@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class Patient 
     attr_accessor :name 
 
@@ -29,5 +30,19 @@ class Patient
     
     end
 
+=======
+class Patient  
+  attr_accessor :name
+  
+  @@all = []
+  
+  def initialize(name) 
+    @name 
+  end
+
+  def self.all
+    @@all 
+  end
+>>>>>>> ae7380a533a798fa37f80495e49de46e3d765813
 
 end
